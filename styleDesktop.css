@@ -1,0 +1,67 @@
+@media screen and (min-width: 1200px){
+    
+    
+    .body{
+        display: flex;
+    }
+    
+    .juego{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+    
+    }
+    
+    
+    .header-titulo{
+    text-align: center;
+    color: var(--color-narajaVivo);
+    }
+    
+    .canvas{
+        width: 100%;
+        translate: -10rem 6rem;
+        scale: 2.5;
+        /* margin-left: 10rem; */
+        margin-top: 7rem;
+        padding: 1rem;
+    }
+    
+    .canvas-letra{
+        width: 100%;
+        translate: 25rem 0;
+        color: var(--color-verdeManzana);
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+    
+    .canvas-palabra{
+        display: block;
+        width: 100%;
+        translate: 7rem 10rem;
+        color: var(--color-narajaVivo);
+        margin-top: 3rem;
+        font-size: 3rem;
+        width: 30%;
+    }
+    
+    
+    .button{
+    width: 18rem;
+    height: 6rem;
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    color: var(--color-naranjaFuerte);
+    border-radius: 0.3rem;
+    background: var(--color-verdeManzana);
+    }
+    
+    .button:hover{
+    background-color: var(--color-naranjaFuerte);
+    color: var(--color-verdeManzana);
+    transition: 1s;
+    }
+}

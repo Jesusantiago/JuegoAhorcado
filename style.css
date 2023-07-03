@@ -1,0 +1,70 @@
+:root{
+
+    --color-verdeOscutro : #070D0C;
+    
+    --color-verdeTurquesa: #2A403A; 
+    
+    --color-verdeManzana: #5D8C56; 
+    
+    --color-naranjaFuerte: #8C4A23; 
+    
+    --color-narajaVivo : #F26835; 
+    
+    }
+    
+    *{
+        font-family: SF Pixelate;
+        box-sizing: border-box;
+    }
+    
+    .hidden{
+        color: transparent;
+    }
+    
+    .body{
+        background-color: var(--color-verdeTurquesa);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-titulo{
+        text-align: center;
+        color: var(--color-narajaVivo);
+    }
+    
+    .canvas{
+        margin-top: 7rem;
+        padding: 1rem;
+    }
+    
+    .canvas-letra{
+        color: var(--color-verdeManzana);
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+    
+    .canvas-palabra{
+        color: var(--color-narajaVivo);
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+    
+    
+    .button{
+        width: 18rem;
+        height: 6rem;
+        position: absolute;
+        top: 50%;
+        font-size: 3rem;
+        color: var(--color-naranjaFuerte);
+        border-radius: 0.3rem;
+        background: var(--color-verdeManzana);
+    }
+    
+    .button:hover{
+        background-color: var(--color-naranjaFuerte);
+        color: var(--color-verdeManzana);
+        transition: 1s;
+    }
