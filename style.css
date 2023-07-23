@@ -27,6 +27,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 15rem;
+        padding: 3rem;
     }
     
     .header-titulo{
@@ -34,24 +36,16 @@
         color: var(--color-narajaVivo);
     }
     
-    .canvas{
-        margin-top: 7rem;
-        padding: 1rem;
-    }
-    
     .canvas-letra{
         color: var(--color-verdeManzana);
-        margin-top: 5rem;
         font-size: 2rem;
     }
     
     .canvas-palabra{
         color: var(--color-narajaVivo);
-        margin-top: 3rem;
         font-size: 3rem;
     }
-    
-    
+        
     .button{
         width: 18rem;
         height: 6rem;
